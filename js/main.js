@@ -48,10 +48,10 @@ username.addEventListener('keydown', (key)=>{
              top: 55px;
              position: absolute;
              height: 40px;
-             left: ${leftEyeLeft-1}px;`
+             left: ${leftEyeLeft-0.5}px;`
 
         rightEye.style.cssText=`
-             right: ${rightEyeRight+1}px;
+             right: ${rightEyeRight+0.5}px;
              position: absolute;
              height: 40px;
              top: 55px; `
@@ -62,10 +62,10 @@ username.addEventListener('keydown', (key)=>{
              top: 55px;
              position: absolute;
              height: 40px;
-             left: ${leftEyeLeft+1}px;`
+             left: ${leftEyeLeft+0.5}px;`
 
         rightEye.style.cssText=`
-             right: ${rightEyeRight-1}px;
+             right: ${rightEyeRight-0.5}px;
              position: absolute;
              height: 40px;
              top: 55px; `

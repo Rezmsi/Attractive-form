@@ -61,8 +61,8 @@ body{
 }
 
 .right-eye{
-    right: 34px;
+    top: 43px;
     position: absolute;
     height: 40px;
-    top: 43px;
+    right: 34px;
 }
